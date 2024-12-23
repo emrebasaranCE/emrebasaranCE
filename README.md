@@ -13,6 +13,20 @@ This space is where I explore, experiment, and share my passion for crafting eff
 - To collaborate on exciting open-source projects.
 - To share knowledge and build connections within the tech community.
 - Feel free to explore my repositories and reach out if you'd like to discuss ideas, ask questions, or just say hi! 🌐
+
+![Emre's GitHub Stats](https://github-readme-stats.vercel.app/api?username=emrebasaranCE&theme=tokyonight&custom_title=Emre's%20GitHub%20Stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=emrebasaranCE&layout=donut)](https://github.com/emrebasaranCE?tab=repositories)
+
+<!--
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=emrebasaranCE&theme=tokyonight&custom_title=Emre's%20GitHub%20Stats" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emrebasaranCE&layout=donut"/>
+</a>
+
+
 <!--
 **emrebasaranCE/emrebasaranCE** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
