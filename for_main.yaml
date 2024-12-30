@@ -1,0 +1,36 @@
+on:
+  schedule:
+    - cron: "*/10 * * * *"  # Her 10 dakikada bir çalıştır
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Generate Stats
+        run: |
+          curl -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=emrebasaranCE&show_icons=true&locale=en&count_private=true&cache_seconds=600"
+          curl -o github-streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=emrebasaranCE&count_private=true&cache_seconds=600"
+          curl -o github-langs.svg "https://github-readme-stats.vercel.app/api/top-langs?username=emrebasaranCE&layout=compact&langs_count=10&count_private=true&cache_seconds=600"
+
+      - name: Update README
+        run: |
+          sed -i '/<img src=".*github-stats.svg".*>/c\<img src="github-stats.svg" />' README.md
+          sed -i '/<img src=".*github-streak.svg".*>/c\<img src="github-streak.svg" />' README.md
+          sed -i '/<img src=".*github-langs.svg".*>/c\<img src="github-langs.svg" />' README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update GitHub Stats with Private Contributions"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.tokenX }}
