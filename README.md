@@ -29,6 +29,7 @@ This space is where I explore, experiment, and share my passion for crafting eff
   </tr>
 </table>
 
+<!--
 ![Snake animation](https://github.com/emrebasaranCE/emrebasaranCE/blob/output/github-contribution-grid-snake.svg)
 
 <!-- 
