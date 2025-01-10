@@ -14,6 +14,24 @@ This space is where I explore, experiment, and share my passion for crafting eff
 - To share knowledge and build connections within the tech community.
 - Feel free to explore my repositories and reach out if you'd like to discuss ideas, ask questions, or just say hi! 🌐
 
+
+
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=emrebasaranCE&show_icons=true&locale=en&count_private=true&theme=radical" alt="GitHub Stats" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=emrebasaranCE&layout=compact&langs_count=5&theme=radical" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
+
+![Snake animation](https://github.com/emrebasaranCE/emrebasaranCE/blob/output/github-contribution-grid-snake.svg)
+
+<!-- 
 ![Emre's GitHub Stats](https://github-readme-stats.vercel.app/api?username=emrebasaranCE&theme=tokyonight&custom_title=Emre's%20GitHub%20Stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=emrebasaranCE&layout=donut)](https://github.com/emrebasaranCE?tab=repositories)
